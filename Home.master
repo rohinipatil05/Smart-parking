@@ -1,0 +1,242 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="footer.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet" />
+	<!--pop-up-box-->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//pop-up-box-->
+	<!-- price range -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui1.css" />
+	<!-- fonts -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet" />
+
+
+<%--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>--%>
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <div class="header-bot">
+		<div class="header-bot_inner_wthreeinfo_header_mid">
+			<!-- header-bot-->
+			<div class="col-md-4 logo_agile">
+				<h1>
+					<a href="home.aspx">
+						<img src="images/parking_24908-54065.jpg" alt=" " height="75" width="75" /> Smart
+                        Parking</a></h1>
+			</div>
+			<!-- header-bot -->
+			<div class="col-md-8 header">
+				<!-- header lists -->
+
+				
+
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+        <div class="ban-top">
+		<div class="container">
+			
+			<div class="top_nav_left">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse menu--shylock" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav menu__list">
+                    	
+
+		
+								<li class="active">
+									<a class="nav-stylehead" href="home.aspx">Home
+										<span class="sr-only">(current)</span>
+									</a>
+								</li>
+
+                               
+
+                                <li class="">
+									<a class="nav-stylehead" href="signup.aspx">Register</a>
+								</li>
+
+                                <li class="">
+									<a class="nav-stylehead" href="login.aspx">Log In</a>
+								</li>
+
+								<%--<li class="">
+									<a class="nav-stylehead" href="about.aspx"></a>
+								</li>--%>
+
+								
+								<li class="">
+									<a class="nav-stylehead" href="contact.aspx">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        
+         <footer class="footer">
+    <section class="home-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 newsletter-text">
+                    <p>&nbsp;</p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="single">
+                        <div class="sec-title ">
+                            <div class="brdr"></div>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="cta_area2 footer-connect text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 footer-connect-text">
+                    <h1>&nbsp;</h1>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-middle mb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="footer-image">
+                        <img src="https://www.hummingwebians.com/public/images/phone-circle.png" class="auto-style3">
+                    </div>
+                    <div class="footer-middle-contact">
+                        <h2>Contact Us</h2>
+                        <p><a class="phone" href="tel:+91 1234567890">+91-9012345678 </a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center footer-middle-box-border">
+                    <div class="footer-image">
+                        <img src="https://www.hummingwebians.com/public/images/web-circle.png" class="auto-style4">
+                    </div>    
+                    <div class="footer-middle-contact">
+                        <h2>Follow Us</h2>
+                        <ul class="social-list">
+                            <li>
+                                <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a></li>
+                            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="footer-image">
+                        <img src="https://www.hummingwebians.com/public/images/place-circle.png" class="auto-style4">
+                    </div>    
+                    <div class="footer-middle-contact ">
+                        <h2>Address</h2>
+                        <p>chiplun </p>
+                        <p class="no-margin">Maharashtra, India </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_btm wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12 footer-bottom text-center">
+                    <p>@smartparking2020<a href="#">.</a> All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- js-files -->
+	<!-- jquery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- //jquery -->
+
+	<!-- smoothscroll -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- //smoothscroll -->
+
+	<!-- start-smooth-scrolling -->
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script>
+	    jQuery(document).ready(function ($) {
+	        $(".scroll").click(function (event) {
+	            event.preventDefault();
+
+	            $('html,body').animate({
+	                scrollTop: $(this.hash).offset().top
+	            }, 1000);
+	        });
+	    });
+	</script>
+	<!-- //end-smooth-scrolling -->
+
+	<%--<!-- smooth-scrolling-of-move-up -->
+	<script>
+	    $(document).ready(function () {
+	        /*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+	        $().UItoTop({
+	            easingType: 'easeOutQuart'
+	        });
+
+	    });
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->--%>
+
+	<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+	<!-- //for bootstrap working -->
+	<!-- //js-files -->
+
+    </div>
+    </form>
+</body>
+</html>
